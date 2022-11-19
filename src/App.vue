@@ -1,17 +1,17 @@
 
 <template>
-  <h2 class="text-3xl text-green-700 font-extrabold">Hello Jerry</h2>
+  <MenuComponent />
 </template>
 
 <script>
 
+import MenuComponent from './components/Menu/MenuComponent.vue'
+
 export default {
   name: 'App',
-  data() {
-    return {
-    
-    }
-  },
+  components: {
+    MenuComponent,
+  }
 }
 </script>
 
