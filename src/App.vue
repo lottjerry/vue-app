@@ -1,16 +1,16 @@
 
 <template>
-  <MenuComponent />
+  <NavbarComponent />
 </template>
 
 <script>
 
-import MenuComponent from './components/Menu/MenuComponent.vue'
+import NavbarComponent from './components/Navbar/NavbarComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    MenuComponent,
+    NavbarComponent,
   }
 }
 </script>
@@ -22,7 +22,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+
 
 </style>
